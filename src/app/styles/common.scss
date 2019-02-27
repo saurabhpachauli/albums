@@ -1,0 +1,30 @@
+body {
+  background-color: $bodyBgColor;
+  color: $BodyTextColor;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mrg-top-10 {
+  margin-top: 10px;
+}
+
+.web-container {
+  margin: auto;
+  width: 1170px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.page-header {
+  font-size: 40px;
+  width: 100%;
+}

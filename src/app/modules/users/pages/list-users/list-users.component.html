@@ -1,0 +1,8 @@
+<div class="ui-g-12 page-header">
+    <span>
+        User List
+    </span>
+</div>
+<div class="ui-g-12 pointer" *ngFor="let user of usersList">
+    <app-user-view [user]="user" (click)="getAlbums(user)"></app-user-view>
+</div>

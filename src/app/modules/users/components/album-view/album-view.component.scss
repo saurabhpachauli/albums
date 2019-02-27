@@ -1,0 +1,26 @@
+.album-holder {
+  border: 1px solid #9e9e9e;
+
+  .album-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all ease-in-out 100ms;
+    white-space: nowrap;
+    width: 275px;
+  }
+
+  &:hover {
+    .album-text {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+
+  .album-image {
+    img {
+      display: inherit;
+      margin: auto;
+      max-width: 30%;
+    }
+  }
+}

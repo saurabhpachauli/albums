@@ -1,0 +1,16 @@
+<div class="ui-g-12 ui-g-nopad">
+  <div class="ui-g-12 page-header">
+    <i class="fa fa-long-arrow-left pointer" (click)="goBack()"></i>
+    <span>
+      Album List
+    </span>
+  </div>
+  <div class="ui-g-12">
+    <div class="ui-g-4 album-wrapper" *ngFor="let album of albums">
+      <app-album-view [album]="album" (click)="viewPhotos(album)"></app-album-view>
+    </div>
+  </div>
+  <div *ngIf="viewImages && images">
+    <app-makeshift-lightbox (closeEvent)="closeLightbox($event)" [documents]="images"></app-makeshift-lightbox>
+  </div>
+</div>

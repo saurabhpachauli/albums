@@ -1,0 +1,16 @@
+<div class="overlay-container">
+  <div class="ui-g-12 ui-g-nopad overlay-head-container">
+  </div>
+  <span class="cancel-holder" (click)="closeLightbox()">
+    <i class="fa fa-times"></i>
+  </span>
+  <div class="ui-g-12" *ngIf="file">
+    <span class="toggle-arrow toggle-prev" [ngStyle]="changeOpacityOfPrev()" (click)="toggleImage('prev')" *ngIf="documents.length > 1">
+      <i class="fa fa-chevron-left"></i>
+    </span>
+    <img [src]="file" style="display: block; margin: auto" />
+    <span class="toggle-arrow  toggle-next" [ngStyle]="changeOpacityOfNext()" (click)="toggleImage('next')" *ngIf=" documents.length> 1">
+      <i class="fa fa-chevron-right"></i>
+    </span>
+  </div>
+</div>

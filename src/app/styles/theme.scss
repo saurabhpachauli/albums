@@ -1,0 +1,78 @@
+// Colors 
+$white: #FFF;
+$inputGroupTextColor: #000;
+$bodyBgColor: #F6F6F6;
+$BodyTextColor: #454545;
+
+// Forms
+
+$formFieldTopBottomMargin: 8px;
+$formFieldLeftRightMargin: 0;
+$inputFieldsBgColor: $white;
+$inputFieldBorderColor: #E1E3E7;
+$inputTextHeight: 30px;
+$readOnlyFieldColor: #DEDEDE;
+$activeBoxTextColor: #636363;
+$inputBorderColor: #E1E3E7;
+
+// Pring NG 
+
+$fontFamily:  'OpenSans', sans-serif;
+$fontSize: 14px;
+$borderRadius: 2px;
+$disabledOpacity: .35;
+$calendarIconColor: #3D3D3D;
+$dropdownBgColor: #1A1A1A;
+$dropdownBorderColor: #C5C0CB;
+$selectButtonBorderColor: #EEE;
+
+// Header
+$headerBorderWidth: 1px;
+$headerBorderColor: $white;
+$headerBgColor: $white;
+$headerTextColor: #444;
+$headerFontWeight: bold;
+$headerIconTextColor: #444;
+
+// Content
+$contentBorderWidth: 1px;
+$contentBorderColor: #DDD;
+$contentBgColor: $white;
+$contentTextColor: #444;
+
+// Default State
+$stateDefaultBorderWidth: 1px;
+$stateDefaultBorderColor: #DDD;
+$stateDefaultBgColor: #F6F6F6;
+$stateDefaultTextColor: #0073EA;
+
+// Active State
+$stateActiveBorderColor: #DDD;
+$stateActiveBgColor: $white;
+$stateActiveTextColor: $white;
+
+// Highlight State
+$stateHighlightBorderColor: #9158D9;
+$stateHighlightBgColor: #9158D9;
+$stateHighlightTextColor: $white;
+
+// Focus State
+$stateFocusBorderColor: #0073EA;
+$stateFocusBgColor: #0073EA;
+$stateFocusTextColor: $white;
+
+// Error State
+$stateErrorBorderColor: #DDD;
+$stateErrorBgColor: $white;
+$stateErrorTextColor: #FF0084;
+
+// Hover State
+$stateHoverBorderColor: #0073EA;
+$stateHoverBgColor: #0073EA;
+$stateHoverTextColor: $white;
+
+// Forms
+$inputBgColor: $white;
+$inputTextColor: #444;
+$invalidInputBorderColor: #FF0084;
+
